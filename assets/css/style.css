@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* header start */
+header{
+    margin-top: 50px;
+}
+
+header nav .container{
+
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+}
+header nav .container .logo{
+    margin-right: 180px;
+}
+
+header nav .container .navbar ul{
+    font-size: 14px;
+    color: #9497A1;
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav .container .navbar ul li{
+list-style-type: none;   
+ margin-right: 60px;
+    margin-top: 15px;
+
+}
+header nav .container .navbar ul li a{
+    text-decoration: none;
+}
+
+header nav .container .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .container .navbar button{
+    background: #185CFF;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 158px;
+    height: 44px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 6px;
+    /* margin-top: 17px; */
+    margin-left: 170px;
+    flex: none; 
+    order: 1;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+header nav .container .navbar a{
+    text-decoration: none;
+}
+/* header end */
+
+
+section .yazi{
+    /* width: 540px;
+    height: 120px; */
+    /* margin-right: 975px; */
+    margin-left: 225px; 
+    margin-top: 136px;  
+
+    font-family: 'Manrope';
+    /* font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #292D33; */
+    font-size: 52px;
+    line-height: 60px;
+
+}
+section .yazi h1{
+    display: inline;
+
+}
+section .yazi span{
+    color: blue;    
+    font-size: 42px;
+    font-family: 'Manrope';
+
+
+}
+section .yazi2{
+    width: 431px;
+    margin-top: 136px;
+    height: 112px;
+    color: #9497A1;
+    margin-left: 13 0px;
+
+    margin-right: 405px;
+}
+section .container{
+    /* margin-right: 300px; */
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+section .sekil{
+    margin-top: 90px;
+    width: 1200px;
+}
+section .yazi3{
+    width: 634px;
+    height: 197px;
+    font-family: 'Manrope';
+    font-size: 57px;
+    line-height: 66px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+    margin-top: 120px;
+    margin-left: 405px;
+}
+section .yazi3 span{
+    color: #185CFF;
+    
+}
+section .yazi4{
+    width: 540px;
+height: 132px;
+display: flex;
+}
